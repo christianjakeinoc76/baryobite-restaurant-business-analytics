@@ -1,0 +1,882 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Christian Jake Inoc",
+      "email": "admin@baryobite.com",
+      "role": "Admin",
+      "createdAt": "2026-01-01T08:00:00Z",
+      "passwordHash": "a685c8e3376ee875daa157753711ab0d:29cfd365eef712f632c4e3c9c1c6a377a0546dbf08dcd931c506a91c98cef06c16f8e673307527cde262568ee15834d013adea99abdd59f472eadc3309d42a7c"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "d40cc9ce-ca3a-4c07-be94-bf2a5c1ef201",
+      "userId": 1,
+      "expiresAt": 1796554329421
+    },
+    {
+      "token": "db06223a-b0a4-43e6-bf87-7552257a0c62",
+      "userId": 1,
+      "expiresAt": 1796554357522
+    }
+  ],
+  "passwordResets": [],
+  "orders": [
+    {
+      "id": 1,
+      "orderCode": "ORD-1025",
+      "date": "2026-06-12",
+      "createdAt": "2026-06-12T12:30:00Z",
+      "customerId": 1,
+      "customerName": "Maria Clara Santos",
+      "orderType": "Dine-In",
+      "status": "Completed",
+      "items": [
+        {
+          "menuItemId": 1,
+          "name": "Baryo Chicken Inasal",
+          "quantity": 4,
+          "unitPrice": 265,
+          "unitCost": 105
+        },
+        {
+          "menuItemId": 11,
+          "name": "Fresh Calamansi Juice Pitcher",
+          "quantity": 2,
+          "unitPrice": 160,
+          "unitCost": 35
+        }
+      ],
+      "totalAmount": 1380,
+      "totalCost": 490
+    },
+    {
+      "id": 2,
+      "orderCode": "ORD-1026",
+      "date": "2026-06-24",
+      "createdAt": "2026-06-24T19:15:00Z",
+      "customerId": 2,
+      "customerName": "Juan Miguel Dela Cruz",
+      "orderType": "Delivery",
+      "status": "Completed",
+      "items": [
+        {
+          "menuItemId": 5,
+          "name": "Crispy Pata (Family)",
+          "quantity": 2,
+          "unitPrice": 790,
+          "unitCost": 390
+        },
+        {
+          "menuItemId": 6,
+          "name": "Lumpiang Shanghai (12 pcs)",
+          "quantity": 2,
+          "unitPrice": 210,
+          "unitCost": 78
+        }
+      ],
+      "totalAmount": 2000,
+      "totalCost": 936
+    },
+    {
+      "id": 3,
+      "orderCode": "ORD-1027",
+      "date": "2026-07-08",
+      "createdAt": "2026-07-08T13:10:00Z",
+      "customerId": 3,
+      "customerName": "Angela Reyes",
+      "orderType": "Dine-In",
+      "status": "Completed",
+      "items": [
+        {
+          "menuItemId": 3,
+          "name": "Beef Kare-Kare",
+          "quantity": 3,
+          "unitPrice": 480,
+          "unitCost": 220
+        },
+        {
+          "menuItemId": 9,
+          "name": "Baryo Special Halo-Halo",
+          "quantity": 4,
+          "unitPrice": 175,
+          "unitCost": 62
+        }
+      ],
+      "totalAmount": 2140,
+      "totalCost": 908
+    },
+    {
+      "id": 4,
+      "orderCode": "ORD-1028",
+      "date": "2026-07-21",
+      "createdAt": "2026-07-21T18:45:00Z",
+      "customerId": 4,
+      "customerName": "Carlo Mendoza",
+      "orderType": "Takeout",
+      "status": "Completed",
+      "items": [
+        {
+          "menuItemId": 2,
+          "name": "Sizzling Pork Sisig Platter",
+          "quantity": 4,
+          "unitPrice": 340,
+          "unitCost": 145
+        },
+        {
+          "menuItemId": 12,
+          "name": "Sago’t Gulaman",
+          "quantity": 4,
+          "unitPrice": 95,
+          "unitCost": 22
+        }
+      ],
+      "totalAmount": 1740,
+      "totalCost": 668
+    },
+    {
+      "id": 5,
+      "orderCode": "ORD-1029",
+      "date": "2026-08-09",
+      "createdAt": "2026-08-09T12:50:00Z",
+      "customerId": 5,
+      "customerName": "Bea Alonzo-Tan",
+      "orderType": "Dine-In",
+      "status": "Completed",
+      "items": [
+        {
+          "menuItemId": 4,
+          "name": "Sinigang na Baboy",
+          "quantity": 4,
+          "unitPrice": 390,
+          "unitCost": 165
+        },
+        {
+          "menuItemId": 5,
+          "name": "Crispy Pata (Family)",
+          "quantity": 2,
+          "unitPrice": 790,
+          "unitCost": 390
+        }
+      ],
+      "totalAmount": 3140,
+      "totalCost": 1440
+    },
+    {
+      "id": 6,
+      "orderCode": "ORD-1030",
+      "date": "2026-08-22",
+      "createdAt": "2026-08-22T20:05:00Z",
+      "customerId": 6,
+      "customerName": "Rafael Bautista",
+      "orderType": "Delivery",
+      "status": "Completed",
+      "items": [
+        {
+          "menuItemId": 1,
+          "name": "Baryo Chicken Inasal",
+          "quantity": 5,
+          "unitPrice": 265,
+          "unitCost": 105
+        },
+        {
+          "menuItemId": 10,
+          "name": "Leche Flan",
+          "quantity": 3,
+          "unitPrice": 140,
+          "unitCost": 45
+        }
+      ],
+      "totalAmount": 1745,
+      "totalCost": 660
+    },
+    {
+      "id": 7,
+      "orderCode": "ORD-1031",
+      "date": "2026-09-11",
+      "createdAt": "2026-09-11T13:20:00Z",
+      "customerId": 1,
+      "customerName": "Maria Clara Santos",
+      "orderType": "Dine-In",
+      "status": "Completed",
+      "items": [
+        {
+          "menuItemId": 3,
+          "name": "Beef Kare-Kare",
+          "quantity": 4,
+          "unitPrice": 480,
+          "unitCost": 220
+        },
+        {
+          "menuItemId": 2,
+          "name": "Sizzling Pork Sisig Platter",
+          "quantity": 3,
+          "unitPrice": 340,
+          "unitCost": 145
+        }
+      ],
+      "totalAmount": 2940,
+      "totalCost": 1315
+    },
+    {
+      "id": 8,
+      "orderCode": "ORD-1032",
+      "date": "2026-09-25",
+      "createdAt": "2026-09-25T19:30:00Z",
+      "customerId": 7,
+      "customerName": "Camille Navarro",
+      "orderType": "Delivery",
+      "status": "Completed",
+      "items": [
+        {
+          "menuItemId": 5,
+          "name": "Crispy Pata (Family)",
+          "quantity": 3,
+          "unitPrice": 790,
+          "unitCost": 390
+        },
+        {
+          "menuItemId": 11,
+          "name": "Fresh Calamansi Juice Pitcher",
+          "quantity": 2,
+          "unitPrice": 160,
+          "unitCost": 35
+        }
+      ],
+      "totalAmount": 2690,
+      "totalCost": 1240
+    },
+    {
+      "id": 9,
+      "orderCode": "ORD-1033",
+      "date": "2026-10-10",
+      "createdAt": "2026-10-10T12:40:00Z",
+      "customerId": 5,
+      "customerName": "Bea Alonzo-Tan",
+      "orderType": "Dine-In",
+      "status": "Completed",
+      "items": [
+        {
+          "menuItemId": 1,
+          "name": "Baryo Chicken Inasal",
+          "quantity": 6,
+          "unitPrice": 265,
+          "unitCost": 105
+        },
+        {
+          "menuItemId": 4,
+          "name": "Sinigang na Baboy",
+          "quantity": 4,
+          "unitPrice": 390,
+          "unitCost": 165
+        },
+        {
+          "menuItemId": 9,
+          "name": "Baryo Special Halo-Halo",
+          "quantity": 5,
+          "unitPrice": 175,
+          "unitCost": 62
+        }
+      ],
+      "totalAmount": 4025,
+      "totalCost": 1600
+    },
+    {
+      "id": 10,
+      "orderCode": "ORD-1034",
+      "date": "2026-10-24",
+      "createdAt": "2026-10-24T18:55:00Z",
+      "customerId": 2,
+      "customerName": "Juan Miguel Dela Cruz",
+      "orderType": "Takeout",
+      "status": "Completed",
+      "items": [
+        {
+          "menuItemId": 2,
+          "name": "Sizzling Pork Sisig Platter",
+          "quantity": 5,
+          "unitPrice": 340,
+          "unitCost": 145
+        },
+        {
+          "menuItemId": 6,
+          "name": "Lumpiang Shanghai (12 pcs)",
+          "quantity": 4,
+          "unitPrice": 210,
+          "unitCost": 78
+        }
+      ],
+      "totalAmount": 2540,
+      "totalCost": 1037
+    },
+    {
+      "id": 11,
+      "orderCode": "ORD-1035",
+      "date": "2026-11-02",
+      "createdAt": "2026-11-02T12:15:00Z",
+      "customerId": 3,
+      "customerName": "Angela Reyes",
+      "orderType": "Dine-In",
+      "status": "Completed",
+      "items": [
+        {
+          "menuItemId": 1,
+          "name": "Baryo Chicken Inasal",
+          "quantity": 4,
+          "unitPrice": 265,
+          "unitCost": 105
+        },
+        {
+          "menuItemId": 11,
+          "name": "Fresh Calamansi Juice Pitcher",
+          "quantity": 2,
+          "unitPrice": 160,
+          "unitCost": 35
+        }
+      ],
+      "totalAmount": 1380,
+      "totalCost": 490
+    },
+    {
+      "id": 12,
+      "orderCode": "ORD-1036",
+      "date": "2026-11-03",
+      "createdAt": "2026-11-03T19:10:00Z",
+      "customerId": 8,
+      "customerName": "Marco Villanueva",
+      "orderType": "Delivery",
+      "status": "Completed",
+      "items": [
+        {
+          "menuItemId": 2,
+          "name": "Sizzling Pork Sisig Platter",
+          "quantity": 3,
+          "unitPrice": 340,
+          "unitCost": 145
+        },
+        {
+          "menuItemId": 6,
+          "name": "Lumpiang Shanghai (12 pcs)",
+          "quantity": 2,
+          "unitPrice": 210,
+          "unitCost": 78
+        }
+      ],
+      "totalAmount": 1440,
+      "totalCost": 591
+    },
+    {
+      "id": 13,
+      "orderCode": "ORD-1037",
+      "date": "2026-11-04",
+      "createdAt": "2026-11-04T13:05:00Z",
+      "customerId": 1,
+      "customerName": "Maria Clara Santos",
+      "orderType": "Dine-In",
+      "status": "Completed",
+      "items": [
+        {
+          "menuItemId": 3,
+          "name": "Beef Kare-Kare",
+          "quantity": 3,
+          "unitPrice": 480,
+          "unitCost": 220
+        },
+        {
+          "menuItemId": 9,
+          "name": "Baryo Special Halo-Halo",
+          "quantity": 3,
+          "unitPrice": 175,
+          "unitCost": 62
+        }
+      ],
+      "totalAmount": 1965,
+      "totalCost": 846
+    },
+    {
+      "id": 14,
+      "orderCode": "ORD-1038",
+      "date": "2026-11-05",
+      "createdAt": "2026-11-05T18:20:00Z",
+      "customerId": 5,
+      "customerName": "Bea Alonzo-Tan",
+      "orderType": "Dine-In",
+      "status": "Preparing",
+      "items": [
+        {
+          "menuItemId": 5,
+          "name": "Crispy Pata (Family)",
+          "quantity": 2,
+          "unitPrice": 790,
+          "unitCost": 390
+        },
+        {
+          "menuItemId": 4,
+          "name": "Sinigang na Baboy",
+          "quantity": 2,
+          "unitPrice": 390,
+          "unitCost": 165
+        }
+      ],
+      "totalAmount": 2360,
+      "totalCost": 1110
+    },
+    {
+      "id": 15,
+      "orderCode": "ORD-1039",
+      "date": "2026-11-06",
+      "createdAt": "2026-11-06T11:45:00Z",
+      "customerId": 4,
+      "customerName": "Carlo Mendoza",
+      "orderType": "Takeout",
+      "status": "Pending",
+      "items": [
+        {
+          "menuItemId": 1,
+          "name": "Baryo Chicken Inasal",
+          "quantity": 3,
+          "unitPrice": 265,
+          "unitCost": 105
+        },
+        {
+          "menuItemId": 12,
+          "name": "Sago’t Gulaman",
+          "quantity": 3,
+          "unitPrice": 95,
+          "unitCost": 22
+        }
+      ],
+      "totalAmount": 1080,
+      "totalCost": 381
+    },
+    {
+      "id": 16,
+      "orderCode": "ORD-1040",
+      "date": "2026-11-06",
+      "createdAt": "2026-11-06T10:52:43.629Z",
+      "customerId": 1,
+      "customerName": "Maria Clara Santos",
+      "orderType": "Dine-In",
+      "status": "Completed",
+      "items": [
+        {
+          "menuItemId": 1,
+          "name": "Baryo Chicken Inasal",
+          "quantity": 1,
+          "unitPrice": 265,
+          "unitCost": 105
+        }
+      ],
+      "totalAmount": 265,
+      "totalCost": 105
+    }
+  ],
+  "reservations": [
+    {
+      "id": 1,
+      "reservationCode": "RES-401",
+      "customerName": "Maria Clara Santos",
+      "phone": "0917-555-0101",
+      "email": "maria.santos@example.com",
+      "partySize": 6,
+      "date": "2026-11-06",
+      "time": "18:30",
+      "tableNumber": "T-04",
+      "status": "Confirmed",
+      "notes": "Birthday dinner, prepare complimentary leche flan."
+    },
+    {
+      "id": 2,
+      "reservationCode": "RES-402",
+      "customerName": "Bea Alonzo-Tan",
+      "phone": "0921-555-0105",
+      "email": "bea.tan@example.com",
+      "partySize": 4,
+      "date": "2026-11-06",
+      "time": "19:00",
+      "tableNumber": "T-02",
+      "status": "Seated",
+      "notes": "Window booth preferred."
+    },
+    {
+      "id": 3,
+      "reservationCode": "RES-403",
+      "customerName": "Angela Reyes",
+      "phone": "0919-555-0103",
+      "email": "angela.reyes@example.com",
+      "partySize": 8,
+      "date": "2026-11-07",
+      "time": "12:30",
+      "tableNumber": "VIP-1",
+      "status": "Confirmed",
+      "notes": "Family lunch gathering."
+    },
+    {
+      "id": 4,
+      "reservationCode": "RES-404",
+      "customerName": "Rafael Bautista",
+      "phone": "0922-555-0106",
+      "email": "rafael.bautista@example.com",
+      "partySize": 2,
+      "date": "2026-11-05",
+      "time": "20:00",
+      "tableNumber": "T-07",
+      "status": "Completed",
+      "notes": ""
+    }
+  ],
+  "menu": [
+    {
+      "id": 1,
+      "name": "Baryo Chicken Inasal",
+      "category": "Main Course",
+      "price": 265,
+      "cost": 105,
+      "available": true,
+      "description": "Charcoal-grilled quarter chicken marinated in lemongrass, calamansi, and annatto oil.",
+      "soldCount": 185
+    },
+    {
+      "id": 2,
+      "name": "Sizzling Pork Sisig Platter",
+      "category": "Main Course",
+      "price": 340,
+      "cost": 145,
+      "available": true,
+      "description": "Crispy chopped pork face and belly tossed with calamansi, chili, and red onions.",
+      "soldCount": 162
+    },
+    {
+      "id": 3,
+      "name": "Beef Kare-Kare",
+      "category": "Main Course",
+      "price": 480,
+      "cost": 220,
+      "available": true,
+      "description": "Slow-braised beef shank and tripe in rich roasted peanut sauce with house bagoong.",
+      "soldCount": 98
+    },
+    {
+      "id": 4,
+      "name": "Sinigang na Baboy",
+      "category": "Main Course",
+      "price": 390,
+      "cost": 165,
+      "available": true,
+      "description": "Savory tamarind broth with tender pork ribs, kangkong, radish, and sitaw.",
+      "soldCount": 145
+    },
+    {
+      "id": 5,
+      "name": "Crispy Pata (Family)",
+      "category": "Main Course",
+      "price": 790,
+      "cost": 390,
+      "available": true,
+      "description": "Deep-fried whole pork hock served with spiced soy-vinegar dipping sauce.",
+      "soldCount": 64
+    },
+    {
+      "id": 6,
+      "name": "Lumpiang Shanghai (12 pcs)",
+      "category": "Appetizer",
+      "price": 210,
+      "cost": 78,
+      "available": true,
+      "description": "Golden-fried minced pork and vegetable spring rolls with sweet chili sauce.",
+      "soldCount": 190
+    },
+    {
+      "id": 7,
+      "name": "Tokwa’t Baboy",
+      "category": "Appetizer",
+      "price": 195,
+      "cost": 75,
+      "available": true,
+      "description": "Crispy fried tofu and pork ear cubes in tangy soy-vinegar dressing.",
+      "soldCount": 82
+    },
+    {
+      "id": 8,
+      "name": "Ensaladang Talong",
+      "category": "Appetizer",
+      "price": 165,
+      "cost": 55,
+      "available": true,
+      "description": "Smoky grilled eggplant salad with tomatoes, salted egg, and shallots.",
+      "soldCount": 41
+    },
+    {
+      "id": 9,
+      "name": "Baryo Special Halo-Halo",
+      "category": "Dessert",
+      "price": 175,
+      "cost": 62,
+      "available": true,
+      "description": "Shaved ice layered with sweet beans, macapuno, leche flan, and ube ice cream.",
+      "soldCount": 156
+    },
+    {
+      "id": 10,
+      "name": "Leche Flan",
+      "category": "Dessert",
+      "price": 140,
+      "cost": 45,
+      "available": true,
+      "description": "Silky caramel custard made with farm-fresh egg yolks and condensed milk.",
+      "soldCount": 112
+    },
+    {
+      "id": 11,
+      "name": "Fresh Calamansi Juice Pitcher",
+      "category": "Beverage",
+      "price": 160,
+      "cost": 35,
+      "available": true,
+      "description": "Freshly squeezed Philippine lime juice lightly sweetened with wildflower honey.",
+      "soldCount": 210
+    },
+    {
+      "id": 12,
+      "name": "Sago’t Gulaman",
+      "category": "Beverage",
+      "price": 95,
+      "cost": 22,
+      "available": true,
+      "description": "Chilled brown sugar arnibal drink with chewy tapioca pearls and agar jelly.",
+      "soldCount": 178
+    }
+  ],
+  "inventory": [
+    {
+      "id": 1,
+      "name": "Whole Chicken (Dressed)",
+      "category": "Meat & Poultry",
+      "quantity": 8,
+      "unit": "kg",
+      "reorderLevel": 15,
+      "unitCost": 185,
+      "supplier": "Baryo Poultry Farms",
+      "lastUpdated": "2026-11-05"
+    },
+    {
+      "id": 2,
+      "name": "Pork Belly & Maskara",
+      "category": "Meat & Poultry",
+      "quantity": 24,
+      "unit": "kg",
+      "reorderLevel": 12,
+      "unitCost": 290,
+      "supplier": "Batangas Meat Co.",
+      "lastUpdated": "2026-11-05"
+    },
+    {
+      "id": 3,
+      "name": "Beef Shank (Bulalo Cut)",
+      "category": "Meat & Poultry",
+      "quantity": 14,
+      "unit": "kg",
+      "reorderLevel": 8,
+      "unitCost": 420,
+      "supplier": "Batangas Meat Co.",
+      "lastUpdated": "2026-11-04"
+    },
+    {
+      "id": 4,
+      "name": "Fresh Calamansi",
+      "category": "Produce",
+      "quantity": 4,
+      "unit": "kg",
+      "reorderLevel": 10,
+      "unitCost": 95,
+      "supplier": "Tagaytay Fresh Produce",
+      "lastUpdated": "2026-11-05"
+    },
+    {
+      "id": 5,
+      "name": "Kangkong & Sitaw Bundle",
+      "category": "Produce",
+      "quantity": 18,
+      "unit": "bundles",
+      "reorderLevel": 10,
+      "unitCost": 45,
+      "supplier": "Tagaytay Fresh Produce",
+      "lastUpdated": "2026-11-05"
+    },
+    {
+      "id": 6,
+      "name": "Jasmine Rice (25kg Sack)",
+      "category": "Dry Goods",
+      "quantity": 16,
+      "unit": "sacks",
+      "reorderLevel": 6,
+      "unitCost": 1250,
+      "supplier": "Nueva Ecija Grains",
+      "lastUpdated": "2026-11-03"
+    },
+    {
+      "id": 7,
+      "name": "Roasted Peanut Paste",
+      "category": "Dry Goods",
+      "quantity": 3,
+      "unit": "jars",
+      "reorderLevel": 8,
+      "unitCost": 240,
+      "supplier": "Manila Pantry Supply",
+      "lastUpdated": "2026-11-04"
+    },
+    {
+      "id": 8,
+      "name": "Ube Ice Cream (Gallon)",
+      "category": "Dairy & Condiments",
+      "quantity": 9,
+      "unit": "tubs",
+      "reorderLevel": 4,
+      "unitCost": 480,
+      "supplier": "Creamery Artisans",
+      "lastUpdated": "2026-11-05"
+    },
+    {
+      "id": 9,
+      "name": "Soy Sauce & Cane Vinegar",
+      "category": "Dairy & Condiments",
+      "quantity": 22,
+      "unit": "liters",
+      "reorderLevel": 8,
+      "unitCost": 85,
+      "supplier": "Manila Pantry Supply",
+      "lastUpdated": "2026-11-02"
+    },
+    {
+      "id": 10,
+      "name": "Tapioca Pearls (Sago)",
+      "category": "Beverages",
+      "quantity": 12,
+      "unit": "kg",
+      "reorderLevel": 5,
+      "unitCost": 110,
+      "supplier": "Manila Pantry Supply",
+      "lastUpdated": "2026-11-04"
+    }
+  ],
+  "customers": [
+    {
+      "id": 1,
+      "name": "Maria Clara Santos",
+      "email": "maria.santos@example.com",
+      "phone": "0917-555-0101",
+      "loyaltyTier": "VIP",
+      "joinedDate": "2026-01-12"
+    },
+    {
+      "id": 2,
+      "name": "Juan Miguel Dela Cruz",
+      "email": "juan.delacruz@example.com",
+      "phone": "0918-555-0102",
+      "loyaltyTier": "Gold",
+      "joinedDate": "2026-02-04"
+    },
+    {
+      "id": 3,
+      "name": "Angela Reyes",
+      "email": "angela.reyes@example.com",
+      "phone": "0919-555-0103",
+      "loyaltyTier": "Gold",
+      "joinedDate": "2026-02-19"
+    },
+    {
+      "id": 4,
+      "name": "Carlo Mendoza",
+      "email": "carlo.mendoza@example.com",
+      "phone": "0920-555-0104",
+      "loyaltyTier": "Silver",
+      "joinedDate": "2026-03-22"
+    },
+    {
+      "id": 5,
+      "name": "Bea Alonzo-Tan",
+      "email": "bea.tan@example.com",
+      "phone": "0921-555-0105",
+      "loyaltyTier": "VIP",
+      "joinedDate": "2026-04-08"
+    },
+    {
+      "id": 6,
+      "name": "Rafael Bautista",
+      "email": "rafael.bautista@example.com",
+      "phone": "0922-555-0106",
+      "loyaltyTier": "Silver",
+      "joinedDate": "2026-05-14"
+    },
+    {
+      "id": 7,
+      "name": "Camille Navarro",
+      "email": "camille.navarro@example.com",
+      "phone": "0923-555-0107",
+      "loyaltyTier": "Bronze",
+      "joinedDate": "2026-07-01"
+    },
+    {
+      "id": 8,
+      "name": "Marco Villanueva",
+      "email": "marco.v@example.com",
+      "phone": "0924-555-0108",
+      "loyaltyTier": "Bronze",
+      "joinedDate": "2026-08-19"
+    }
+  ],
+  "expenses": [
+    {
+      "id": 1,
+      "date": "2026-06-15",
+      "category": "Ingredients",
+      "description": "June Meat & Produce Restock",
+      "amount": 1450
+    },
+    {
+      "id": 2,
+      "date": "2026-07-15",
+      "category": "Ingredients",
+      "description": "July Meat & Produce Restock",
+      "amount": 1620
+    },
+    {
+      "id": 3,
+      "date": "2026-08-15",
+      "category": "Utilities",
+      "description": "August Electricity, Water & LPG",
+      "amount": 1890
+    },
+    {
+      "id": 4,
+      "date": "2026-09-15",
+      "category": "Ingredients",
+      "description": "September Kitchen Supplies",
+      "amount": 2150
+    },
+    {
+      "id": 5,
+      "date": "2026-10-15",
+      "category": "Payroll",
+      "description": "October Kitchen & Floor Staff",
+      "amount": 2480
+    },
+    {
+      "id": 6,
+      "date": "2026-11-03",
+      "category": "Ingredients",
+      "description": "November Weekly Fresh Produce & Poultry",
+      "amount": 2650
+    }
+  ],
+  "settings": {
+    "restaurantName": "BaryoBite Kitchen & Grill",
+    "tagline": "Authentic Filipino Comfort Food & Analytics",
+    "address": "148 Katipunan Ave, Quezon City, Metro Manila",
+    "phone": "(02) 8555-0192",
+    "email": "hello@baryobite.com",
+    "taxRate": 12,
+    "currency": "₱"
+  }
+}
